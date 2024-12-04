@@ -89,17 +89,22 @@ We consider four special types of matrices for which we sample augmented hives:
 For sampling augmenting hives using octahedron recurrence for the four different types of matrices use the following commands. The command and the resulting augmented hives are shown below.
 
 `python octahedron_recurrence.py --matrix_type GUE --M 1000 --N 250 --sig_X 1 --sig_Y 1 --LA_diff 1000`
-<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/GUE_1_1.png?raw=true" width="360">
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/GUE_1_1.png?raw=true" width="720">
 
 `python octahedron_recurrence.py --matrix_type RP --M 1000 --N 250 --sig_X 1 --sig_Y 1 --LA_diff 1000`
-<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/RP.png?raw=true" width="360">
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/RP.png?raw=true" width="720">
 
 `python octahedron_recurrence.py --matrix_type SSM --M 1000 --N 250 --sig_X 1 --sig_Y 1 --LA_diff 1000`
-<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/SSM.png?raw=true" width="360">
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/SSM.png?raw=true" width="720">
 
 `python octahedron_recurrence.py --matrix_type ASSM --M 1000 --N 250 --sig_X 1 --sig_Y 1 --LA_diff 1000`
-<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/ASSM.png?raw=true" width="360">
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/ASSM.png?raw=true" width="720">
 
+In the above commands, **_matrix_type_** denotes the type of matrix to be used for the eigenvalue minor process to obtain a double hive. 
+**_M_** denotes the number of matrices to sample for calculating the average augmented hive.
+**_N_** denotes the size of the double hive. 
+**_sig_X_** and **_sig_Y_** represent the scaling factor of the first and second matrices, respectively.
+**_LA_diff_** denotes the difference factor in Lambda used for converting a pair of Gelfand-Tsetlin patterns into a double hive. This needs to be set sufficiently high.
 
 ## Lozenge Tiling
 
