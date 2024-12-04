@@ -89,15 +89,19 @@ We consider four special types of matrices for which we sample augmented hives:
 For sampling augmenting hives using octahedron recurrence for the four different types of matrices use the following commands. The command and the resulting augmented hives are shown below.
 
 `python octahedron_recurrence.py --matrix_type GUE --M 1000 --N 250 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/GUE_1_1.png?raw=true" width="720">
 
 `python octahedron_recurrence.py --matrix_type RP --M 1000 --N 250 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/RP.png?raw=true" width="720">
 
 `python octahedron_recurrence.py --matrix_type SSM --M 1000 --N 250 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/SSM.png?raw=true" width="720">
 
 `python octahedron_recurrence.py --matrix_type ASSM --M 1000 --N 250 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/ASSM.png?raw=true" width="720">
 
 In the above commands, **_matrix_type_** denotes the type of matrix to be used for the eigenvalue minor process to obtain a double hive. 
