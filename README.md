@@ -15,7 +15,7 @@ $$h_n(A)+h_n(C)\leq h_n(B)+h_n(D).$$
 
 The triangle $T_5$             |  The three types of rhombi
 :-------------------------:|:-------------------------:
-<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Speyers_Matching.gif?raw=true" width="400">  |  <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Speyers_Matching.gif?raw=true" width="400">
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Triangle.png?raw=true" width="400">  |  <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Rhombi.png?raw=true" width="400">
 
 
 ## Octahedron Recurrence
