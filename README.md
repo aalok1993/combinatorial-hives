@@ -46,6 +46,10 @@ $`(\mu_{j,k})_{1 \leq j \leq k \leq n}`$, $`(\nu_{j,k})_{1 \leq j \leq k \leq n}
 
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/MinorProcess.png?raw=true" width="360">
 
+
+
+## Octahedron Recurrence
+
 Consider the tetrahedron 
 
 $$` \mathtt{tet} = \{ [x,y,z,w] \in \mathbb{Z}^4 \mid x,y,z,w \geq 0; x+y+z+w=n \}`$$
@@ -58,8 +62,6 @@ $$PQR: (i, j, n-i-j,0)$$
 $$PRS: (n-j,n-i,0,i+j-n)$$   
 
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Tetrahedron.png?raw=true" width="360">
-
-## Octahedron Recurrence
 
 Let $o:\mathtt{tet}\to \mathbb{R}$ be a function that assigns a real value to each vertex of the tetrahdron.
 The tetrahedron consists of several unit sized tetrahedra and several octahedra. Each octahedron inside the tetrahedron consists of six vertices having values and indices of the form 
@@ -75,11 +77,28 @@ For each such octahedron inside $\mathtt{tet}$, we have the octahedron rule whic
 
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Octahedron.png?raw=true" width="360">
 
+We now explain a method for the exact sampling of special types of augmented hives. Using the minor process explained earlier, we obtain a double hive. A tetrahedron is constructed and the top panel consisting of triangle $PQS$ and $QRS$ is initialized with values of the double hive. We then sequentially excavate the tetrahedron using the octahedron recurrence to obtain the value at each point in the tetrahedron. This gives us the double hive on the bottom panel.
 
+We consider four special types of matrices for which we sample augmented hives: 
 
+  1. Gaussian Unitary Ensembles (GUE)
+  2. Random Projections (RP)
+  3. Sequential Spectrum Matrix (SSM)
+  4. Alternating Sequential Spectrum Matrix (ASSM)
 
+For sampling augmenting hives using octahedron recurrence for the four different types of matrices use the following commands. The command and the resulting augmented hives are shown below.
 
+`python octahedron_recurrence.py --matrix_type GUE --M 1000 --N 250 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/GUE_1_1.png?raw=true" width="360">
 
+`python octahedron_recurrence.py --matrix_type RP --M 1000 --N 250 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/RP.png?raw=true" width="360">
+
+`python octahedron_recurrence.py --matrix_type SSM --M 1000 --N 250 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/SSM.png?raw=true" width="360">
+
+`python octahedron_recurrence.py --matrix_type ASSM --M 1000 --N 250 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/ASSM.png?raw=true" width="360">
 
 
 ## Lozenge Tiling
