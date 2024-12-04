@@ -130,8 +130,15 @@ Here are some lozenge tilings obtrained for different sizes of hives and differe
 
 `python lozenge.py --matrix_type GUE --N 100 --V_i 50 --V_j 50 --sig_X 1 --sig_Y 1 --LA_diff 1000`
 
-<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/ASSM.png?raw=true" width="360">
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/lozenge_100_50_50?raw=true" width="360">
 
+`python lozenge.py --matrix_type GUE --N 100 --V_i 50 --V_j 50 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/lozenge_100_50_50?raw=true" width="360">
+
+`python lozenge.py --matrix_type GUE --N 100 --V_i 50 --V_j 50 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/lozenge_100_50_50?raw=true" width="360">
 
 
 ## Surface Tension
