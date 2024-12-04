@@ -48,7 +48,7 @@ $`(\mu_{j,k})_{1 \leq j \leq k \leq n}`$, $`(\nu_{j,k})_{1 \leq j \leq k \leq n}
 
 Consider the tetrahedron 
 
-$$ \mathtt{tet} = \{ [x,y,z,w] \in \mathbb{Z}^4 \mid x,y,z,w \geq 0; x+y+z+w=n \}$$
+$$` \mathtt{tet} = \{ [x,y,z,w] \in \mathbb{Z}^4 \mid x,y,z,w \geq 0; x+y+z+w=n \}`$$
 
 with vertices $R=(n,0,0,0), P=(0,n,0,0), Q=(0,0,n,0), S=(0,0,0,n)$ as illustrated in the figure below. It consists of four hives on the boundary surface: $PQS$, $QRS$, $PQR$, and $PRS$. The hives $PQS$ and $QRS$ form the top panel double hive, whereas $PQR$ and $PRS$ form the lower panel double hive. A point lying on each of these triangles is of the form
 
@@ -58,6 +58,8 @@ $$PQR: (i, j, n-i-j,0)$$
 $$PRS: (n-j,n-i,0,i+j-n)$$   
 
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Tetrahedron.png?raw=true" width="360">
+
+## Octahedron Recurrence
 
 Let $o:\mathtt{tet}\to \mathbb{R}$ be a function that assigns a real value to each vertex of the tetrahdron.
 The tetrahedron consists of several unit sized tetrahedra and several octahedra. Each octahedron inside the tetrahedron consists of six vertices having values and indices of the form 
@@ -76,7 +78,7 @@ For each such octahedron inside $\mathtt{tet}$, we have the octahedron rule whic
 
 
 
-## Octahedron Recurrence
+
 
 
 
