@@ -20,7 +20,7 @@ The triangle $T_5$             |  The three types of rhombi
 
 ## Gelfand-Tsetlin pattern
 
-Consider the pattern $\gamma = (\lambda_{j,k})_{1 \leq j \leq k \leq n}$, where $\lambda_{j,k}$ are real numbers. $$\gamma$$ is called a Gelfand-Tsetlin pattern if it satisfies the interlacing condition 
+Consider the pattern ```math \gamma = (\lambda_{j,k})_{1 \leq j \leq k \leq n}```, where ```math \lambda_{j,k}``` are real numbers. $$\gamma$$ is called a Gelfand-Tsetlin pattern if it satisfies the interlacing condition 
 
 $$\lambda_{j,k+1} \geq \lambda_{j,k} \geq \lambda_{j+1,k+1}$$
 
