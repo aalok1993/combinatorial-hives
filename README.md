@@ -168,3 +168,8 @@ The surface tension function is prevalent in problems concerning hives. However,
 `python surface_tension.py --N 250 --N_hess 100 --N_hess_samp 10000 --margin 0.02`
 
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Surface_Tension.gif?raw=true" width="540">
+
+In the above command, **_N_** denotes the size of the hive. 
+**_N_hess_** denotes the size of discretization of the Hessian domain.
+**_N_hess_samp_** denotes the number of hives sampled on the Hessian domain. Usually we choose **_N_hess_samp_** as the square of **_N_hess_**.
+**margin** denotes the margin for sampling from the triangle interior and must be between 0 and 1.
