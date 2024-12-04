@@ -112,7 +112,7 @@ In the above commands, **_matrix_type_** denotes the type of matrix to be used f
 
 Here is a visualization of the GUE hive with **_sig_X_**=1 and **_sig_Y_**=1.
 
-<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/GUE_1_1.gif?raw=true" width="720">
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/GUE_1_1.gif?raw=true" width="540">
 
 ## Lozenge Tiling
 
@@ -167,4 +167,4 @@ The surface tension function is prevalent in problems concerning hives. However,
 
 `python surface_tension.py --N 250 --N_hess 100 --N_hess_samp 10000 --margin 0.02`
 
-<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Surface_Tension.gif?raw=true" width="720">
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Surface_Tension.gif?raw=true" width="540">
