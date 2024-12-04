@@ -2,6 +2,21 @@
 
 [Link for the paper](https://arxiv.org/abs/2410.12619).
 
+## Hives
+
+Consider the triangle $T_n = \{(i,j) \in \mathbb{Z}^2 \mid 0\leq i \leq j \leq n\}$ for some fixed value of $n$. The figure below on the left illustrates the triangle for $n=5$. The triangle $T_n$ contains three types of rhombi having the following form.
+
+$$\textit{Type 1: } (A,B,C,D) = ((i,j),(i+1,j),(i+2,j+1),(i+1,j+1))$$
+$$\textit{Type 2: } (A,B,C,D) = ((i,j),(i+1,j+1),(i+1,j+2),(i,j+1)$$
+$$\textit{Type 3: } (A,B,C,D) = ((i,j),(i,j-1),(i+1,j-1),(i+1,j)$$
+
+Here, in all three types of rhombi, $AC$ is the long diagonal, whereas $BD$ is the short diagonal. The figure below on the right illustrates the three types of rhombi. A hive is a function $h_n : T_n \to \mathbb{R}$ on the triangle that is rhombus-concave, that is, for each rhombus $ABCD$ in $T_n$, 
+$$h_n(A)+h_n(C)\leq h_n(B)+h_n(D).$$
+
+The triangle $T_5$             |  The three types of rhombi
+:-------------------------:|:-------------------------:
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Speyers_Matching.gif?raw=true" width="400">  |  <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Speyers_Matching.gif?raw=true" width="400">
+
 
 ## Octahedron Recurrence
 
