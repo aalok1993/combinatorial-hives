@@ -37,7 +37,7 @@ $$\min_{1 \leq i < n} \Lambda_i - \Lambda_{i+1} > \lambda_{1,n} - \lambda_{n,n}$
 Using $(\lambda_{j,k})_{1 \leq j \leq k \leq n}$ and $\Lambda$ we can construct the hive $h_n : T_n \to \mathbb{R}$ 
 as depicted in the figures below.
 
-The triangle $T_5$             |  The three types of rhombi
+Minor Process with $n=3$ |  Minor Process with $n=3$
 :-------------------------:|:-------------------------:
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Hive_MP1.png?raw=true" width="360">  |  <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Hive_MP2.png?raw=true" width="360">
 
