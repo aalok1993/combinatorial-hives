@@ -16,6 +16,8 @@ Here is an illustration of Speyer's Matching for obtaining the lozenge tiling of
 For obtaining the lozenge tiling, use the following command
 `python lozenge.py --matrix_type GUE --N 100 --V_i 50 --V_j 50 --sig_X 1 --sig_Y 1 --LA_diff 1000`
 
+
+`
 Usage: lozenge.py [-h] [--matrix_type {GUE,RP,SSM,ASSM}] [--N N] [--V_i V_I] [--V_j V_J] [--sig_X SIG_X] [--sig_Y SIG_Y] [--LA_diff LA_DIFF]
 
 Generate Lozenge Tilings using Speyers Perfect Matching
@@ -30,5 +32,6 @@ optional arguments:
   --sig_X SIG_X         Scaling factor for X
   --sig_Y SIG_Y         Scaling factor for Y
   --LA_diff LA_DIFF     Difference factor in large lambda
+`
 
 ## Surface Tension
