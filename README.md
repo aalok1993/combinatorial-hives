@@ -110,6 +110,10 @@ In the above commands, **_matrix_type_** denotes the type of matrix to be used f
 **_sig_X_** and **_sig_Y_** represent the scaling factor of the first and second matrices, respectively.
 **_LA_diff_** denotes the difference factor in Lambda used for converting a pair of Gelfand-Tsetlin patterns into a double hive. This needs to be set sufficiently high.
 
+Here is a visualization of the GUE hive with **_sig_X_**=1 and **_sig_Y_**=1.
+
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/GUE_1_1.gif?raw=true" width="720">
+
 ## Lozenge Tiling
 
 Here is an illustration of Speyer's Matching for obtaining the lozenge tiling of a point in the double hive.
@@ -159,8 +163,8 @@ Here are some lozenge tilings obtrained for different sizes of hives and differe
 
 ## Surface Tension
 
+The surface tension function is prevalent in problems concerning hives. However, there is no known analytical expression for it. The following code produces a way to visualize a numerical approximation of the surface tension function. It exploits the fact that the function is convex and symmetric in its arguments. The image below shown the negation
 
+`python surface_tension.py --N 250 --N_hess 100 --N_hess_samp 10000 --margin 0.02`
 
-
-
-
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Surface_Tension.gif?raw=true" width="720">
