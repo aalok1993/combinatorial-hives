@@ -128,17 +128,33 @@ In the above command, **_matrix_type_** denotes the type of matrix to be used fo
 
 Here are some lozenge tilings obtrained for different sizes of hives and different locations.
 
+`python lozenge.py --matrix_type GUE --N 4 --V_i 2 --V_j 2 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/lozenge_4_2_2.svg?raw=true" width="360">
+
+`python lozenge.py --matrix_type GUE --N 10 --V_i 5 --V_j 5 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/lozenge_10_5_5.svg?raw=true" width="360">
+
+`python lozenge.py --matrix_type GUE --N 20 --V_i 10 --V_j 10 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/lozenge_20_10_10.svg?raw=true" width="360">
+
+`python lozenge.py --matrix_type GUE --N 50 --V_i 25 --V_j 25 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/lozenge_50_25_25.svg?raw=true" width="360">
+
 `python lozenge.py --matrix_type GUE --N 100 --V_i 50 --V_j 50 --sig_X 1 --sig_Y 1 --LA_diff 1000`
 
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/lozenge_100_50_50.svg?raw=true" width="360">
 
-`python lozenge.py --matrix_type GUE --N 100 --V_i 50 --V_j 50 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+`python lozenge.py --matrix_type GUE --N 100 --V_i 70 --V_j 30 --sig_X 1 --sig_Y 1 --LA_diff 1000`
 
-<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/lozenge_100_50_50.svg?raw=true" width="360">
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/lozenge_100_70_30.svg?raw=true" width="360">
 
-`python lozenge.py --matrix_type GUE --N 100 --V_i 50 --V_j 50 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+`python lozenge.py --matrix_type GUE --N 100 --V_i 90 --V_j 10 --sig_X 1 --sig_Y 1 --LA_diff 1000`
 
-<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/lozenge_100_50_50.svg?raw=true" width="360">
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/lozenge_100_90_10.svg?raw=true" width="360">
 
 
 ## Surface Tension
