@@ -12,7 +12,7 @@ $$\textit{Type 3: } (A,B,C,D) = ((i,j),(i,j-1),(i+1,j-1),(i+1,j)$$
 
 Here, in all three types of rhombi, $AC$ is the long diagonal, whereas $BD$ is the short diagonal. The figure below on the right illustrates the three types of rhombi. A hive is a function $h_n : T_n \to \mathbb{R}$ on the triangle that is rhombus-concave, that is, for each rhombus $ABCD$ in $T_n$,
 
-$$h_n(A)+h_n(C)\leq h_n(B)+h_n(D).$$
+$$h_n(A)+h_n(C)\leq h_n(B)+h_n(D)$$
 
 The triangle $T_5$             |  The three types of rhombi
 :-------------------------:|:-------------------------:
@@ -20,7 +20,7 @@ The triangle $T_5$             |  The three types of rhombi
 
 ## Gelfand-Tsetlin pattern
 
-Consider the pattern $\gamma = (\lambda_{j,k})_{1 \leq j \leq k \leq n}$, where $\lambda_{j,k}$ are real numbers. $\gamma$ is called a Gelfand-Tsetlin pattern if it satisfies the interlacing condition  
+Consider the pattern $\gamma=(\lambda_{j,k})_{1\leq j\leq k\leq n}$, where $\lambda_{j,k}$ are real numbers. $\gamma$ is called a Gelfand-Tsetlin pattern if it satisfies the interlacing condition  
 
 $$\lambda_{j,k+1} \geq \lambda_{j,k} \geq \lambda_{j+1,k+1}$$
 
