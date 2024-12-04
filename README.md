@@ -9,6 +9,8 @@
 
 ## Lozenge Tiling
 
+Here is an illustration of Speyer's Matching for obtaining the lozenge tiling of a point in the double hive.
 
+![](res/Speyers_Perfect_Matching)
 
 ## Surface Tension
