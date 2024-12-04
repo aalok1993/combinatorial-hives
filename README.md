@@ -28,6 +28,24 @@ The figure below depicts the Gelfand-Tsetlin pattern, wherein each $\lambda_{j,k
 
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/GT_pattern.png?raw=true" width="360">
 
+## Constructing hives using the minor process and large eigengaps
+
+Given a $n \times n$ Hermitian matrix $A$, let $\lambda_{1,k} \geq \dots \geq \lambda_{k,k}$ be the eigenvalues of the top left $k \times k$ minor of $A$ for $1 \leq k \leq n$. Then, $(\lambda_{j,k})_{1 \leq j \leq k \leq n}$ forms a Gelfand-Tsetlin pattern. A weakly decreasing sequence $\Lambda$ is said to have large gaps if
+
+$$\min_{1 \leq i < n} \Lambda_i - \Lambda_{i+1} > \lambda_{1,n} - \lambda_{n,n}$$
+
+Using $(\lambda_{j,k})_{1 \leq j \leq k \leq n}$ and $\Lambda$ we can construct the hive $h_n : T_n \to \mathbb{R}$ 
+as depicted in the figures below.
+
+The triangle $T_5$             |  The three types of rhombi
+:-------------------------:|:-------------------------:
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Hive_MP1.png?raw=true" width="360">  |  <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Hive_MP2.png?raw=true" width="360">
+
+
+
+
+
+
 ## Octahedron Recurrence
 
 
