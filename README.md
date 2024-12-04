@@ -11,7 +11,8 @@
 
 Here is an illustration of Speyer's Matching for obtaining the lozenge tiling of a point in the double hive.
 
-![Speyer's Matching](https://github.com/aalok1993/combinatorial-hives/blob/main/res/Speyers_Matching.gif?raw=true)
+<img src="[https://github.com/favicon.ico](https://github.com/aalok1993/combinatorial-hives/blob/main/res/Speyers_Matching.gif?raw=true)" width="400">
+<!-- ![Speyer's Matching](https://github.com/aalok1993/combinatorial-hives/blob/main/res/Speyers_Matching.gif?raw=true) -->
 
 To obtain the lozenge tiling, use the following command
 
