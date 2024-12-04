@@ -12,5 +12,6 @@
 Here is an illustration of Speyer's Matching for obtaining the lozenge tiling of a point in the double hive.
 
 ![](res/Speyers_Perfect_Matching)
+![alt text](https://github.com/aalok1993/combinatorial-hives/blob/main/res/Speyers_Perfect_Matching?raw=true)
 
 ## Surface Tension
