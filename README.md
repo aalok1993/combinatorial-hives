@@ -163,7 +163,7 @@ Here are some lozenge tilings obtrained for different sizes of hives and differe
 
 ## Surface Tension
 
-The surface tension function is prevalent in problems concerning hives. However, there is no known analytical expression for it. The following code produces a way to visualize a numerical approximation of the surface tension function. It exploits the fact that the function is convex and symmetric in its arguments. The image below shown the negation
+The surface tension function is prevalent in problems concerning hives. However, there is no known analytical expression for it. The following code produces a way to visualize a numerical approximation of the surface tension function. It exploits the fact that the function is convex and symmetric in its arguments. The image below shows the exponentiation of the negation of the surface tension function.
 
 `python surface_tension.py --N 250 --N_hess 100 --N_hess_samp 10000 --margin 0.02`
 
