@@ -42,7 +42,7 @@ Minor Process with $n=3$ |  Minor Process with $n=3$
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Hive_MP1.png?raw=true" width="360">  |  <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Hive_MP2.png?raw=true" width="360">
 
 Let $X$ and $Y$ be two Hermitian matrices of size $n \times n$. Let $\mu_{1,k} \geq \dots \geq \mu_{k,k}$ and $\nu_{1,k} \geq \dots \geq \nu_{k,k}$ be the eigenvalues of the top left $k \times k$ minor of $X$ and $Y$, respectively for $1 \leq k \leq n$. Let $\Lambda$ be a weakly decreasing sequence with large gaps. Then, using 
-$(\mu_{j,k})_{1 \leq j \leq k \leq n}$, $(\nu_{j,k})_{1 \leq j \leq k \leq n}$, and $\Lambda$ we obtain a double hive as depicted in the figure below.
+$`(\mu_{j,k})_{1 \leq j \leq k \leq n}`$, $`(\nu_{j,k})_{1 \leq j \leq k \leq n}`$, and $\Lambda$ we obtain a double hive as depicted in the figure below.
 
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/MinorProcess.png?raw=true" width="360">
 
