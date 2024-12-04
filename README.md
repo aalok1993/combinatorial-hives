@@ -86,7 +86,7 @@ We consider four special types of matrices for which we sample augmented hives:
   3. Sequential Spectrum Matrix (SSM)
   4. Alternating Sequential Spectrum Matrix (ASSM)
 
-For sampling augmenting hives using octahedron recurrence for the four different types of matrices use the following commands. The command and the resulting augmented hives are shown below.
+For sampling augmenting hives using octahedron recurrence for the four different types of matrices use the following commands. The command and the resulting augmented hives (mean and variance) are shown below.
 
 `python octahedron_recurrence.py --matrix_type GUE --M 1000 --N 250 --sig_X 1 --sig_Y 1 --LA_diff 1000`
 
@@ -115,7 +115,6 @@ In the above commands, **_matrix_type_** denotes the type of matrix to be used f
 Here is an illustration of Speyer's Matching for obtaining the lozenge tiling of a point in the double hive.
 
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Speyers_Matching.gif?raw=true" width="360">
-<!-- ![Speyer's Matching](https://github.com/aalok1993/combinatorial-hives/blob/main/res/Speyers_Matching.gif?raw=true) -->
 
 To obtain the lozenge tiling, use the following command
 
@@ -127,4 +126,18 @@ In the above command, **_matrix_type_** denotes the type of matrix to be used fo
 **_sig_X_** and **_sig_Y_** represent the scaling factor of the first and second matrices, respectively.
 **_LA_diff_** denotes the difference factor in Lambda used for converting a pair of Gelfand-Tsetlin patterns into a double hive. This needs to be set sufficiently high.
 
+Here are some lozenge tilings obtrained for different sizes of hives and different locations.
+
+`python lozenge.py --matrix_type GUE --N 100 --V_i 50 --V_j 50 --sig_X 1 --sig_Y 1 --LA_diff 1000`
+
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/ASSM.png?raw=true" width="360">
+
+
+
 ## Surface Tension
+
+
+
+
+
+
