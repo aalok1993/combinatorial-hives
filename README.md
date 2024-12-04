@@ -4,11 +4,7 @@
 
 ## Hives
 
-Consider the triangle 
-
-$$T_n = \{(i,j) \in \mathbb{Z}^2 \mid 0\leq i \leq j \leq n\}$$ 
-
-for some fixed value of $n$. The figure below on the left illustrates the triangle for $n=5$. The triangle $T_n$ contains three types of rhombi having the following form.
+Consider the triangle $`T_n = \{(i,j) \in \mathbb{Z}^2 \mid 0\leq i \leq j \leq n\}`$, for some fixed value of $n$. The figure below on the left illustrates the triangle for $n=5$. The triangle $T_n$ contains three types of rhombi having the following form.
 
 $$\textit{Type 1: } (A,B,C,D) = ((i,j),(i+1,j),(i+2,j+1),(i+1,j+1))$$
 $$\textit{Type 2: } (A,B,C,D) = ((i,j),(i+1,j+1),(i+1,j+2),(i,j+1)$$
