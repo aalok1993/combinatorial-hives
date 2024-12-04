@@ -46,7 +46,32 @@ $`(\mu_{j,k})_{1 \leq j \leq k \leq n}`$, $`(\nu_{j,k})_{1 \leq j \leq k \leq n}
 
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/MinorProcess.png?raw=true" width="360">
 
+Consider the tetrahedron 
 
+$$ \mathtt{tet} = \{ [x,y,z,w] \in \mathbb{Z}^4 \mid x,y,z,w \geq 0; x+y+z+w=n \}$$
+
+with vertices $R=(n,0,0,0), P=(0,n,0,0), Q=(0,0,n,0), S=(0,0,0,n)$ as illustrated in the figure below. It consists of four hives on the boundary surface: $PQS$, $QRS$, $PQR$, and $PRS$. The hives $PQS$ and $QRS$ form the top panel double hive, whereas $PQR$ and $PRS$ form the lower panel double hive. A point lying on each of these triangles is of the form
+
+$$PQS: (0, j-i, n-j, i)$$
+$$QRS: (i-j, 0, n-i, j)$$
+$$PQR: (i, j, n-i-j,0)$$
+$$PRS: (n-j,n-i,0,i+j-n)$$   
+
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Tetrahedron.png?raw=true" width="360">
+
+Let $o:\mathtt{tet}\to \mathbb{R}$ be a function that assigns a real value to each vertex of the tetrahdron.
+The tetrahedron consists of several unit sized tetrahedra and several octahedra. Each octahedron inside the tetrahedron consists of six vertices having values and indices of the form 
+
+$$a = o([x+1,y,z+1,w])$$
+$$b = o([x+1,y,z,w+1])$$
+$$c = o([x,y+1,z,w+1])$$
+$$d = o([x,y+1,z+1,w])$$
+$$e = o([x+1,y+1,z,w])$$
+$$f = o([x,y,z+1,w+1])$$
+
+For each such octahedron inside $\mathtt{tet}$, we have the octahedron rule which asserts that $f = \max(a+c,b+d)-e$ as depicted in the figure below.
+
+<img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Octahedron.png?raw=true" width="360">
 
 
 
