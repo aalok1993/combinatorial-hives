@@ -2,7 +2,14 @@
 
 [Link to the paper](https://arxiv.org/abs/2410.12619)
 
-## Hives
+
+# Table of contents
+1. [Hives](#Hives)
+2. [Gelfand-Tsetlin patterns](#Gelfand-Tsetlin patterns)
+
+
+
+## Hives <a name="Hives"></a>
 
 Consider the triangle $`T_n = \{(i,j) \in \mathbb{Z}^2 \mid 0\leq i \leq j \leq n\}`$, for some fixed value of $n$. The figure below on the left illustrates the triangle for $n=5$. The triangle $T_n$ contains three types of rhombi having the following form.
 
@@ -18,7 +25,7 @@ The triangle $T_5$             |  The three types of rhombi
 :-------------------------:|:-------------------------:
 <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Triangle.png?raw=true" width="360">  |  <img src="https://github.com/aalok1993/combinatorial-hives/blob/main/res/Rhombi.png?raw=true" width="360">
 
-## Gelfand-Tsetlin pattern
+## Gelfand-Tsetlin patterns <a name="Gelfand-Tsetlin patterns"></a>
 
 Consider the pattern $`\gamma=(\lambda_{j,k})_{1\leq j\leq k\leq n}`$ where $\lambda_{j,k}$ are real numbers. $\gamma$ is called a Gelfand-Tsetlin pattern if it satisfies the interlacing condition  
 
