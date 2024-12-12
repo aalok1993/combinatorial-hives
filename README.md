@@ -2,6 +2,12 @@
 
 [Link to the paper](https://arxiv.org/abs/2410.12619)
 
+## Installation
+
+The code files in this repository have been tested using python3. To install the required python libraries, use the following command
+
+`pip install -r requirements.txt`
+
 ## Hives
 
 Consider the triangle $`T_n = \{(i,j) \in \mathbb{Z}^2 \mid 0\leq i \leq j \leq n\}`$, for some fixed value of $n$. The figure below on the left illustrates the triangle for $n=5$. The triangle $T_n$ contains three types of rhombi having the following form.
