@@ -82,7 +82,7 @@ We now explain a method for the exact sampling of special types of augmented hiv
 We consider four special types of random matrices of size $n \times n$ for which we sample augmented hives. Let $Q$ denote a unitary matrix chosen uniformly at random. Let $Q^\dagger$ denote the conjugate transpose of $Q$. Let $D$ denote a diagonal matrix. The four special types of random matrices are as follows: 
 
   1. Gaussian Unitary Ensembles (GUE): 
-  2. Random Projections (RP): A matrix of the form $Q D Q^\dagger$, where $\lfloor\frac{n}{2}\rfloor$ diagonal entries of $D$ equal $1$ and the rest of the diagonal entries equal $0$. 
+  2. Random Projections (RP): A matrix of the form $Q D Q^\dagger$, where only the first $\left\lfloor\frac{n}{2}\right\rfloor$ entries of $D$ are nonzero and equal to $1$. 
   3. Sequential Spectrum Matrix (SSM): A matrix of the form $Q D Q^\dagger$, where the diagonal entries of $D$ are $(N-1, N-2, \cdots ,1,0)$.
   4. Alternating Sequential Spectrum Matrix (ASSM): A matrix of the form $Q D Q^\dagger$, where the diagonal entries of $D$ are $(N,N-2, \cdots ,2,0,-2, \cdots -N+4,-N+2)$. 
 
