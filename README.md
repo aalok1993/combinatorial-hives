@@ -79,12 +79,12 @@ For each such octahedron inside $\mathtt{tet}$, we have the octahedron rule whic
 
 We now explain a method for the exact sampling of special types of augmented hives. Using the minor process explained earlier, we obtain a double hive. A tetrahedron is constructed and the top panel consisting of triangle $PQS$ and $QRS$ is initialized with values of the double hive. We then sequentially excavate the tetrahedron using the octahedron recurrence to obtain the value at each point in the tetrahedron. This gives us the double hive on the bottom panel.
 
-We consider four special types of matrices for which we sample augmented hives: 
+We consider four special types of random matrices for which we sample augmented hives: 
 
-  1. Gaussian Unitary Ensembles (GUE)
-  2. Random Projections (RP)
-  3. Sequential Spectrum Matrix (SSM)
-  4. Alternating Sequential Spectrum Matrix (ASSM)
+  1. Gaussian Unitary Ensembles (GUE): 
+  3. Random Projections (RP): A $n \times n$ matrix of the form $Q D Q^\dagger$, where $Q$ is a random unitary matrix and $D$ is a diagonal matrix having half of the diagonal terms equal to $1$ and the other half equal to $0$.
+  4. Sequential Spectrum Matrix (SSM): 
+  5. Alternating Sequential Spectrum Matrix (ASSM): 
 
 For sampling augmenting hives using octahedron recurrence for the four different types of matrices use the following commands. The command and the resulting augmented hives (mean and variance) are shown below.
 
