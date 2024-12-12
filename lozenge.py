@@ -341,7 +341,7 @@ if __name__ == '__main__':
         constraints.append(cp.sum(x[edge_indices]) == 1)
     prob = cp.Problem(objective, constraints)
 
-    opt_val = prob.solve(solver=cp.MOSEK)
+    opt_val = prob.solve()
     print("Optimal value:", opt_val)
     print('Optimization problem completed with status:', prob.status)
 
