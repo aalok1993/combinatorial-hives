@@ -237,7 +237,7 @@ if __name__ == '__main__':
     # Set up the convex optimization problem and solve it
     objective = cp.Minimize(cp.sum_squares(Weights @ x + Offsets + Values + C_n))
     prob = cp.Problem(objective, constraints)
-    opt_val = prob.solve(solver=cp.MOSEK)
+    opt_val = prob.solve()
     print('Problem completed with status:', prob.status)
     print('Optimal value:', opt_val)
     opt_val_x = x.value
