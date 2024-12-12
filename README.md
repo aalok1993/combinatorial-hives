@@ -79,12 +79,12 @@ For each such octahedron inside $\mathtt{tet}$, we have the octahedron rule whic
 
 We now explain a method for the exact sampling of special types of augmented hives. Using the minor process explained earlier, we obtain a double hive. A tetrahedron is constructed and the top panel consisting of triangle $PQS$ and $QRS$ is initialized with values of the double hive. We then sequentially excavate the tetrahedron using the octahedron recurrence to obtain the value at each point in the tetrahedron. This gives us the double hive on the bottom panel.
 
-We consider four special types of random matrices for which we sample augmented hives: 
+We consider four special types of random matrices of size $n \times n$ for which we sample augmented hives. Let $Q$ denote a unitary matrix chosen uniformly at random. Let $Q^\dagger$ denote the conjugate transpose of $Q$. Let $D$ denote a diagonal matrix. The four special types of random matrices are as follows: 
 
   1. Gaussian Unitary Ensembles (GUE): 
-  3. Random Projections (RP): A $n \times n$ matrix of the form $Q D Q^\dagger$, where $Q$ is a random unitary matrix and $D$ is a diagonal matrix having half of the diagonal terms equal to $1$ and the other half equal to $0$.
-  4. Sequential Spectrum Matrix (SSM): 
-  5. Alternating Sequential Spectrum Matrix (ASSM): 
+  2. Random Projections (RP): A matrix of the form $Q D Q^\dagger$, where $\lfloor\frac{n}{2}\rfloor$ diagonal entries of $D$ equal $1$ and the rest of the diagonal entries equal $0$. 
+  3. Sequential Spectrum Matrix (SSM): A matrix of the form $Q D Q^\dagger$, where the diagonal entries of $D$ are $(N-1, N-2, \cdots ,1,0)$.
+  4. Alternating Sequential Spectrum Matrix (ASSM): A matrix of the form $Q D Q^\dagger$, where the diagonal entries of $D$ are $(N,N-2, \cdots ,2,0,-2, \cdots -N+4,-N+2)$. 
 
 For sampling augmenting hives using octahedron recurrence for the four different types of matrices use the following commands. The command and the resulting augmented hives (mean and variance) are shown below.
 
